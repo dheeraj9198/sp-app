@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android ="http://schemas.android.com/apk/res/android"
+    android:id ="@+id/parentLayoutBlankItemBackground"
+    android:layout_width ="wrap_content"
+    android:layout_height ="wrap_content">
+
+        <ImageView
+            android:id = "@+id/iv_subject"
+            android:layout_width = "wrap_content"
+            android:layout_height = "225dp"
+            android:scaleType="fitXY"
+            android:background ="@drawable/iv_subject_background"/>
+            
+    <!--Relative layout with image view for showing NEW tag -->
+    <RelativeLayout
+        android:id = "@+id/rl1"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id = "@+id/iv_new_subject"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+    </RelativeLayout>
+
+    <!--Relative layout for showing course related info -->
+    <RelativeLayout
+        android:id="@+id/rl_subject_info"
+        android:layout_below ="@id/rl1"
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="115dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id = "@+id/tv_Subject_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strategic Financial Management"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"/>
+
+            <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               >
+
+               <ImageView
+                   android:id = "@+id/iv_teacher_icon"
+                   android:layout_width = "wrap_content"
+                   android:layout_height = "wrap_content"
+                   android:background="@drawable/iv_person_icon"
+                   android:layout_margin="3dp"/>
+
+                <TextView
+                   android:id = "@+id/tv_teacher_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="CA Rajiev Singh, A"
+                   android:textSize="16dp"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id = "@+id/iv_language_icon"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:background="@drawable/iv_flage"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id = "@+id/tv_language_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textSize="16dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id = "@+id/rl_notification_count"
+            android:layout_width = "62dp"
+            android:layout_height = "62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="35dp">
+            
+            <TextView
+                android:id = "@+id/tv_notification_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id = "@+id/iv_notification_icon"
+                android:layout_width = "61dp"
+                android:layout_height = "61dp"
+                android:background="@drawable/iv_notification"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

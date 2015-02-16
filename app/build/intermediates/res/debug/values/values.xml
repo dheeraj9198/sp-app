@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/dheeraj/AndroidStudioProjects/code/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!-- From: file:/home/dheeraj/AndroidStudioProjects/code/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#ff000000</color>
+    <color name="gray">#FF616161</color>
+    <color name="gray_font">#FF6A6A6A</color>
+    <color name="orange">#FFFAA51C</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <!-- From: file:/home/dheeraj/AndroidStudioProjects/code/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">SuperProfs</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- From: file:/home/dheeraj/AndroidStudioProjects/code/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TwoWayView">
+    <item name="android:orientation">horizontal</item>
+</style>
+</resources>
